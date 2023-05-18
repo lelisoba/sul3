@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(40, 164, 40);
+}
+
+#imagem_mascote{
+    width: 15vw;
+}
+
+#imagem_brasao{
+    width: 15vw;
+}
+
+body{
+    background: rgb(237, 227, 206);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+    
+#menu-h ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+    
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+    
+#menu-h ul li a:hover {
+    background-color:rgb(40, 164, 40);
+}
+
+#titulo{
+    padding: 20px;
+}
+
+#oktoberfest{
+    width: 25vw;
+    height: 25vh;
+}
+
+#navegantes{
+    width: 25vw;
+    height: 25vh;
+}
+
+#uva{
+    width: 25vw;
+    height: 25vh;
+}
+
+.primeiro-texto{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.segundo-texto{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    flex-direction: row-reverse;
+}
+
+p{
+    font-size: 18px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.terceiro-texto{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    flex-direction: row;
+}
+

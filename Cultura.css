@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(40, 164, 40);
+}
+
+#imagem_mascote{
+    width: 15vw;
+}
+
+#imagem_brasao{
+    width: 15vw;
+}
+
+body{
+    background: rgb(237, 227, 206);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#rs{
+    width: 25vw;
+    height: 25vh;
+    padding-top: 40px;
+}
+
+#sc{
+    width: 25vw;
+    height: 25vh;
+    padding-top: 40px;
+}
+
+#pr{
+    width: 25vw;
+    height: 25vh;
+    padding-top: 40px;
+}
+
+#musica{
+    width: 15vw;
+}
+
+#danca{
+    width: 15vw;
+}
+
+#xis{
+    width: 25vw;
+    height: 25vh;
+    padding-top: 30px;
+}
+
+#cuca{
+    width: 25vw;
+    height: 25vh;
+    padding-top: 30px;
+}
+
+#terere{
+    width: 25vw;
+    height: 25vh;
+    padding-top: 30px;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+    
+#menu-h ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+    
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+    
+#menu-h ul li a:hover {
+    background-color:rgb(40, 164, 40);
+}
+
+.primeiro-texto{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.segundo-texto{
+    display: flex;
+    gap:20px;
+    padding: 40px;
+}
+
+.terceiro-texto{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 16px;
+}
+
+h2{
+    font-size: 30px;
+}

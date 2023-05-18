@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background: rgb(40, 164, 40);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#imagem_mascote{
+    width: 15vw;
+}
+
+#imagem_brasao{
+    width: 15vw;
+}
+
+body{
+    background: rgb(237, 227, 206);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+    
+#menu-h ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+    
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+    
+#menu-h ul li a:hover {
+    background: rgba(40, 164, 40, 0.354);
+}
+
+h1{
+    font-size: 40px;
+}
+
+.primeiro-texto{
+    display: flex;
+    gap: 20px; 
+    padding: 40px;
+}
+
+#cartografia{
+    width: 15vw;
+}
+
+#imagem-bandeira{
+    width: 20vw;
+    margin-bottom: 20px;
+    /* justify-self: center;
+    align-self: center; */
+}oq eu posso ajudar?
+
+.paragrafo-texto{
+    text-align: justify;
+}
+
+
+#paragrafo{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 50vw;
+    padding: 10px;
+}
+
+.bandeiras{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-bandeiras{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.mascote{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+#bandeira{
+    width: 25vw;
+    height: 30vh;
+}
+
+#mascote{
+    width: 25vw;
+    height: 30vh;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#titulo{
+    padding: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 18px;
+}
